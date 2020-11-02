@@ -233,7 +233,6 @@ public interface BaseDaoInter {
 	/**
 	 * 获取数据表某列的所有值
 	 * @param sql
-	 * @param params 参数
 	 * @return
 	 */
 	List<String> getColumn(String sql, Object[] param);

@@ -1,18 +1,13 @@
 package com.lizhou.servlet;
 
-import java.io.IOException;
+import com.lizhou.bean.Course;
+import com.lizhou.service.CourseService;
+
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import com.lizhou.bean.Course;
-import com.lizhou.bean.Page;
-import com.lizhou.service.ClazzService;
-import com.lizhou.service.CourseService;
-import com.lizhou.service.GradeService;
-import com.lizhou.tools.StringTool;
+import java.io.IOException;
 
 /**
  * 课程

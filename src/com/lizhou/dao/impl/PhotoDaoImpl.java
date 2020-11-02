@@ -1,12 +1,9 @@
 package com.lizhou.dao.impl;
 
-import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStream;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 
 import com.lizhou.bean.User;
 import com.lizhou.dao.inter.PhotoDaoInter;

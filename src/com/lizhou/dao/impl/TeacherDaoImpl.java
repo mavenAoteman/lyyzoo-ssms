@@ -8,7 +8,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 import org.apache.commons.beanutils.BeanUtils;
-import org.junit.Test;
 
 import com.lizhou.bean.Clazz;
 import com.lizhou.bean.Course;

@@ -1,28 +1,16 @@
 package com.lizhou.dao.impl;
 
+import com.lizhou.bean.EScore;
+import com.lizhou.bean.Exam;
+import com.lizhou.bean.Student;
+import com.lizhou.dao.inter.ScoreDaoInter;
+import com.lizhou.tools.MysqlTool;
+
 import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-
-import org.apache.commons.beanutils.BeanUtils;
-import org.junit.Test;
-
-import com.lizhou.bean.Clazz;
-import com.lizhou.bean.EScore;
-import com.lizhou.bean.Exam;
-import com.lizhou.bean.Grade;
-import com.lizhou.bean.Page;
-import com.lizhou.bean.Student;
-import com.lizhou.dao.inter.BaseDaoInter;
-import com.lizhou.dao.inter.ScoreDaoInter;
-import com.lizhou.dao.inter.StudentDaoInter;
-import com.lizhou.tools.MysqlTool;
 
 
 public class ScoreDaoImpl extends BaseDaoImpl implements ScoreDaoInter {
